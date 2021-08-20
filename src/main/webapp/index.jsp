@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <link rel="icon" href="img/favicon.ico">
 
-    <title>Carousel Template for Bootstrap</title>
+    <title>邻乡邻里</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -34,7 +34,8 @@
 <!-- NAVBAR
 ================================================== -->
 <body>
-<div class="navbar-wrapper">
+
+<%--<div class="navbar-wrapper">
     <div class="container">
 
         <nav class="navbar navbar-inverse navbar-static-top">
@@ -71,8 +72,7 @@
         </nav>
 
     </div>
-</div>
-
+</div>--%>
 
 <!-- Carousel
 ================================================== -->
@@ -85,35 +85,13 @@
     </ol>
     <div class="carousel-inner" role="listbox">
         <div class="item active">
-            <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
-            <div class="container">
-                <div class="carousel-caption">
-                    <h1>Example headline.</h1>
-                    <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon
-                        buttons on the left and right might not load/display properly due to web browser security rules.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
-                </div>
-            </div>
+            <img class="first-slide" src="./img/banner_2.jpg" alt="First slide">
         </div>
         <div class="item">
-            <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
-            <div class="container">
-                <div class="carousel-caption">
-                    <h1>Another example headline.</h1>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-                </div>
-            </div>
+            <img class="second-slide" src="./img/banner_1.jpg" alt="Second slide">
         </div>
         <div class="item">
-            <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
-            <div class="container">
-                <div class="carousel-caption">
-                    <h1>One more for good measure.</h1>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-                </div>
-            </div>
+            <img class="third-slide" src="./img/banner_3.jpg" alt="Third slide">
         </div>
     </div>
     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -136,25 +114,22 @@
     <!-- Three columns of text below the carousel -->
     <div class="row">
         <div class="col-lg-4">
-            <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-                Praesent commodo cursus magna.</p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            <img class="img-circle" src="./img/food.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>食品</h2>
+            <p>能提供人体所需的营养素和能量，满足人体的营养需要，调节人体生理节律，提高机体的免疫力，降血压、降血脂、降血糖等功效。如芹菜的降血压、海带的降血目压和降胆固醇、核桃的健脑作用等。因此，凡是具调节功能的食品称为功能性食品或保健食品。</p>
+            <p><a class="btn btn-default" href="#" role="button">详情 &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-            <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo,
-                tortor mauris condimentum nibh.</p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            <img class="img-circle" src="./img/shoes.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>服装</h2>
+            <p>主要以遮羞为目的，经过时间的发展转向了功能性（实用性）继而更注重服装的美观性，满足人们精神上美的享受。影响美观性的主要因素是纺织品的质地、色彩、花纹图案、坯布组织、形态保持性、悬垂性、弹性、防皱性、服装款式等。</p>
+            <p><a class="btn btn-default" href="#" role="button">详情 &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-            <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo,
-                tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            <img class="img-circle" src="./img/computer.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>电脑</h2>
+            <p>20世纪最先进的科学技术发明之一，它的应用领域从最初的军事科研应用扩展到社会的各个领域，已形成了规模巨大的计算机产业，带动了全球范围的技术进步，由此引发了深刻的社会变革，计算机已遍及一般学校、企事业单位成为信息社会中必不可少的工具。</p>
+            <p><a class="btn btn-default" href="#" role="button">详情 &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 
@@ -165,12 +140,11 @@
 
     <div class="row featurette">
         <div class="col-md-7">
-            <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna,
-                vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <h2 class="featurette-heading">Nestle. <span class="text-muted">Good Food. Good Life.</span></h2>
+            <p class="lead">雀巢公司起源于瑞士，主要产品为速溶咖啡、炼乳、奶粉、婴儿食品、奶酪、巧克力制品、糖果、速饮茶等数10种。是由亨利·内斯特（Henri Nestle）在1867年创办，总部设在瑞士日内瓦湖畔的韦威（Vevey），在全球拥有500多家工厂，为世界上最大的食品制造商。</p>
         </div>
         <div class="col-md-5">
-            <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+            <img class="featurette-image img-responsive center-block" src="./img/nes.jpg" alt="Generic placeholder image">
         </div>
     </div>
 
@@ -178,12 +152,11 @@
 
     <div class="row featurette">
         <div class="col-md-7 col-md-push-5">
-            <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna,
-                vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <h2 class="featurette-heading">Coco Chanel <span class="text-muted">Gabrielle Bonheur Chanel.</span></h2>
+            <p class="lead">香奈儿（Chanel）是法国奢侈品品牌，中文名是加布里埃·香奈儿），该品牌于1910年在法国创立。有服装、珠宝饰品及其配件、化妆品、护肤品、香水等。该品牌的时装设计有高雅、简洁、精美的风格，在20世纪40年代就成功地将“五花大绑”的女装推向简单、舒适的设计。2019年10月，Interbrand发布的全球品牌百强榜排名22。</p>
         </div>
         <div class="col-md-5 col-md-pull-7">
-            <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+            <img class="featurette-image img-responsive center-block" src="./img/chanel.jpg" alt="Generic placeholder image">
         </div>
     </div>
 
@@ -191,12 +164,11 @@
 
     <div class="row featurette">
         <div class="col-md-7">
-            <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna,
-                vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <h2 class="featurette-heading">Apple Computer.<span class="text-muted">Apple II.</span></h2>
+            <p class="lead">苹果公司原称苹果电脑公司（Apple Computer, Inc.）总部位于美国加利福尼亚的库比提诺，核心业务是电子科技产品，全球电脑市场占有率为3.8%。苹果的Apple II于1970年代助长了个人电脑革命，其后的Macintosh接力于1980年代持续发展。最知名的产品是其出品的Apple II、Macintosh电脑、iPod数位音乐播放器、iTunes音乐商店和iPhone智能手机，它在高科技企业中以创新而闻名。苹果公司于2007年1月9日旧金山的Macworld Expo上宣布改名。</p>
         </div>
         <div class="col-md-5">
-            <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+            <img class="featurette-image img-responsive center-block" src="./img/apple.jpg" alt="Generic placeholder image">
         </div>
     </div>
 
