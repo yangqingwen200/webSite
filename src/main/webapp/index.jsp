@@ -179,8 +179,8 @@
 
     <!-- FOOTER -->
     <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2016 Company, Inc. &middot; <%--<a href="#">Privacy</a> &middot; <a href="#">Terms</a> --%><a href="http://www.beian.miit.gov.cn/" target="_blank">粤ICP备19160037号</a></p>
+        <p class="pull-right"><a href="#">返回顶部</a></p>
+        <p>&copy; 2020 Company, Inc. &middot;<a href="https://www.benwuyou.cn/financial-api/weixin/getAuthLoginUrl" target="_blank">第三方平台授权</a>&middot;<a href="http://beian.miit.gov.cn/" target="_blank">粤ICP备19160037号</a></p>
     </footer>
 
 </div><!-- /.container -->
